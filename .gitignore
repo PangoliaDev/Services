@@ -1,0 +1,4 @@
+/vendor/
+/tests/config/credentials.php
+composer.lock
+.phpunit.result.cache
