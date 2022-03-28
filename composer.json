@@ -1,7 +1,7 @@
 {
   "name": "pangolia/services",
   "description": "Various API services.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://pangolia.com",
   "scripts": {
     "phpcs": "./vendor/bin/phpcs --standard=./phpcs.xml",
