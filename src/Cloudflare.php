@@ -31,9 +31,9 @@ class Cloudflare extends AbstractService {
 	public $response;
 
 	/**
-	 * @param array<string, mixed> $config
+	 * @param $config
 	 */
-	public function __construct( array $config ) {
+	public function __construct( $config ) {
 		$this->email = $config['email'] ?? '';
 		$this->api_key = $config['api_key'] ?? '';
 		$this->zone_id = $config['zone_id'] ?? '';

@@ -21,9 +21,9 @@ class Slack extends AbstractService {
 	public $response;
 
 	/**
-	 * @param array<string, mixed> $config
+	 * @param $config
 	 */
-	public function __construct( array $config ) {
+	public function __construct( $config ) {
 		$this->webhooks = $config['webhooks'] ?? '';
 		$this->bot = $config['bot'] ?? '';
 	}
